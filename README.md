@@ -8,7 +8,8 @@ On the frotnend is React.js using the SASS compiler extension in VS code.
 *NOT THE PACKAGE.JSON* before running npm install.
 
 - Next configure your database using PSQL in your terminal and set your .env variables using the .env.example folder.
-https://www.postgresql.org/docs/10/tutorial-start.html
+- https://formulae.brew.sh/formula/postgresql
+- https://www.postgresql.org/docs/10/tutorial-start.html
 https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
 
 - Review the package.json files in both the back and frontend folders for useful commands.
