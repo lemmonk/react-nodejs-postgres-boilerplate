@@ -17,7 +17,9 @@ Postgres quick start commands
 Run: psql postgres
 
 CREATE DATABASE yourdbname;
+
 CREATE USER youruser WITH ENCRYPTED PASSWORD 'yourpass';
+
 GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 
 - Review the package.json files in both the back and frontend folders for useful commands.
