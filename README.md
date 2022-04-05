@@ -38,3 +38,8 @@ GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 
 App.scss is the main file, all additional scss files created must have an underscore \_ at the start of them and then be imported to App.scss. This will allow you to have only one file for the css within the public folder.
 
+# Remove Git
+
+- rm -rf .git*
+
+
