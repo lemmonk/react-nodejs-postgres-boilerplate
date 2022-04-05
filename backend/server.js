@@ -37,7 +37,7 @@ app.use(methodOverride('_method'));
 const usersRouter = require('./routes/api/users.js');
 
 // Mount all resource routes
-app.use('api/users', usersRouter);
+app.use('/api/users', usersRouter);
 
 // Main routes
 app.get('/', (req, res) => {
