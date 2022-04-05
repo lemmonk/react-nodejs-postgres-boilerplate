@@ -12,6 +12,14 @@ On the frotnend is React.js using the SASS compiler extension in VS code.
 - https://www.postgresql.org/docs/10/tutorial-start.html
 https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
 
+Postgres quick start commands
+
+Run: psql postgres
+
+CREATE DATABASE yourdbname;
+CREATE USER youruser WITH ENCRYPTED PASSWORD 'yourpass';
+GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
+
 - Review the package.json files in both the back and frontend folders for useful commands.
 
 
