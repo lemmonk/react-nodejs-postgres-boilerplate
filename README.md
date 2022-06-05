@@ -41,5 +41,6 @@ App.scss is the main file, all additional scss files created must have an unders
 # Remove Git
 
 - rm -rf .git*
+- https://kbroman.org/github_tutorial/pages/init.html
 
 
