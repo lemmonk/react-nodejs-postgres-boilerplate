@@ -43,4 +43,8 @@ App.scss is the main file, all additional scss files created must have an unders
 - rm -rf .git*
 - https://kbroman.org/github_tutorial/pages/init.html
 
+# Heroku DB
+
+- https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1
+
 
